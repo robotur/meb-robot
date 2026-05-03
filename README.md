@@ -7,6 +7,7 @@ This is a compact, autonomous maze solver robot. Made with a 3d printed chassis 
  * Sensors: 3x MR 45-5V Diffuse Sensors
  * Custom 3D printed PETG
  * Logic: Wall following (Left side)
+![Preview](image.png)
 
 # Engineering Decisions
 Optimized sensor array for navigation:
