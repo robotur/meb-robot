@@ -4,7 +4,7 @@ Retrospective documentation of a Maze Solver robot made for MEB ROBO 2025 &amp; 
 This is a compact, autonomous maze solver robot. Made with a 3d printed chassis and IR sensors; was designed and iterated over the span of 2 years to optimize turning and wall following ability.
 
  * Microcontroller: Arduino Nano
- * Sensors: 3x MR 45-5V Diffuse Sensors
+ * Sensors: 3x MR 45-5V diffuse IR sensors
  * Custom 3D printed PETG
  * Logic: Wall following (Left side)
    
@@ -26,7 +26,7 @@ Inverted motor mount:
  * This lowers the entire chassis to the ground, lower CoM reduces the moment of inertia in high speed turns, massively decreasing the force that tips the robot/prevents it from losing traction
 
 # Mentorship & Leadership
-After a relatively succesful 2025 season with 10 students (5 teams), there were a lot of interested students. I co-led the technical mentorship for 8 incoming Preparatory and 9th grade students
+After a relatively successful 2025 season with 10 students (5 teams), there were a lot of interested students. I co-led the technical mentorship for 8 incoming Preparatory and 9th grade students.
 I translated my 2025 and 2026 experience into a 'base model' (this repo) and i hope to enable new students and current participants to move past basic assembly and focus on more advanced logic and troubleshooting
 
  * Design and manufacturing: I handled the full CAD to print cycle, ensuring every team had a structurally sound chassis
@@ -36,4 +36,4 @@ I translated my 2025 and 2026 experience into a 'base model' (this repo) and i h
 By abstracting mechanical complexity I allowed the 8 junior students to engage directly with logic; turning raw signals into autonomous behavior through their own code.
 
 # 2025-2026 Iteration Comparison
-In the 2025 version, the motors were at the bottom of the plate which not only meant the robot would be really high off the ground compared to other robots but also meant that because the caster wheel was shorter than the height of the chassis plate from the ground, it made the entire robot stand on a 15 degree angle which ruined the sensors' output becasue the sensors were effectively looking at the ground instead of forward
+In the 2025 version, the motors were at the bottom of the plate. This meant the robot sat higher off the ground compared to other robots but also meant that because the caster wheel was shorter than the height of the chassis plate from the ground, it made the entire robot stand on a 15 degree angle which ruined the sensors' output because the sensors were effectively looking at the ground instead of forward.
